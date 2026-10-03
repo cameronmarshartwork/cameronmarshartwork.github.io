@@ -3,6 +3,11 @@ title: home
 layout: home
 type: parent
 order: 1
+carousels:
+  - images: 
+    - image: /img/Cameron Marsh, Back Study, Oil on Canvas, 70x100cm, 2025.jpg
+    - image: /img/Cameron Marsh, Etching on copper, 15x20cm, 2025.jpg
+    - image: /img/Cameron Marsh, Girl from Perugia, Oil on Canvas, 65x55cm, 2024.jpg
 ---
 
 <div class="section header">
@@ -19,25 +24,5 @@ order: 1
 </div>
 
 <div class="section main">
-	<div class="container gallery">
-		<div class="row" id="gallery">
-			{% assign coll = site.collections | where: "label", "home" | first %}
-			{% assign list = coll.files %}
-			{% assign l = coll.files.size | divided_by: 2 | ceil %}
-			<div class="one-half column">
-				{% for image in list offset: l %}
-				<article class="thumb">
-					<img class="lozad u-max-full-width" data-src="{{ coll.label | append: '/' | append: image.name }}" alt="{{ image.basename }}" />
-				</article>
-				{% endfor %}
-			</div>
-			<div class="one-half column">
-				{% for image in list offset: l+1 %}
-				<article class="thumb">
-					<img class="lozad u-max-full-width" data-src="{{ coll.label | append: '/' | append: image.name }}" alt="{{ image.basename }}" />
-				</article>
-				{% endfor %}
-			</div>
-		</div>
-	</div>
+	{% include carousel.html height="50" unit="%" duration="7" number="1" %}
 </div>

@@ -13,7 +13,7 @@ collections:
     output: true
   etching:
     output: true 
-  lanscape:
+  landscape:
     output: true
   figure:
     output: true 
