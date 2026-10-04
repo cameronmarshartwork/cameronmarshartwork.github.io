@@ -48,7 +48,13 @@
   box-sizing: border-box; }
 
 .column img {
-    padding: 15px 0; }
+  padding: 15px 0; }
+
+#gallery {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 15px;
+}
 
 .caption {
   /* text-align: center; */
@@ -528,7 +534,7 @@ hr {
 
 /* Self Clearing Goodness */
 .container:after,
-.row:after,
+.gallery:after,
 .u-cf {
   content: "";
   display: table;

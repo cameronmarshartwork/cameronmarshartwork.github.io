@@ -9,8 +9,6 @@ include: ['_pages']
 collections_dir: series
 
 collections:
-  home:
-    output: true
   etching:
     output: true 
   landscape:
