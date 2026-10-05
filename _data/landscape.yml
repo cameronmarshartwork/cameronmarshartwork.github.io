@@ -1,0 +1,66 @@
+- name: Castiglioncello - Sketch
+  medium: Oil on Board
+  size: 25x40cm
+  year: 2026
+  sold: true
+  img_href: /landscape/Cameron Marsh, Castiglioncello, Oil on Board, 25x40cm, 2026, Sold.jpeg
+- name: Dusk Clouds
+  medium: Oil on Board
+  size: 20x30cm
+  year: 2025
+  sold: true
+  img_href: /landscape/Cameron Marsh, Dusk Clouds, Oil on Board, 20x30cm, 2025.jpg
+- name: Moon
+  medium: Oil on Board
+  size: 20x40cm
+  year: 2026
+  sold: false
+  img_href: /landscape/Cameron Marsh, Moon, Oil on Board, 20x40cm, 2026.jpeg
+- name: Noon
+  medium: Oil on Board
+  size: 20x30cm
+  year: 2026
+  sold: true
+  img_href: /landscape/Cameron Marsh, Noon, Oil on Board, 20x30cm, 2026, Sold.jpeg
+- name: Riverbed
+  medium: Oil on Canvas Mounted on Board
+  size: 30x40cm
+  year: 2026
+  sold: false
+  img_href: /landscape/Cameron Marsh, Riverbed, Oil on Canvas Mounted on Board, 30x40cm, 2026.jpeg
+- name: Daniela's Shed
+  medium: Oil on Board
+  size: 25x35cm
+  year: 2025
+  sold: true
+  img_href: /landscape/Cameron Marsh, Daniela's Shed, Oil on Board, 25x35cm, 2025, Sold.jpg
+- name: Shed
+  medium: Oil on Board
+  size: 30x40cm
+  year: 2026
+  sold: false
+  img_href: /landscape/Cameron Marsh, Shed, Oil on Board, 30x40cm, 2026.jpeg
+# - name: Sunrise - Sketch
+#   medium: Oil on Board
+#   size: 10x20cm
+#   year: 2025
+#   sold: true
+#   img_href: /landscape/Cameron Marsh, Sunrise Sketch, Oil on Board, 10x20cm, 2025, Sold.JPG
+- name: Sunset - Sketch
+  medium: Oil on Board
+  size: 20x30cm
+  year: 2024
+  sold: false
+  img_href: /landscape/Cameron Marsh, Sunset, Oil on Board, 20x30cm, 2024.jpg
+# - name: Twighlight Fields
+#   medium: Oil on Canvas
+#   size: 20x40cm
+#   year: 2026
+#   sold: false
+#   img_href: /landscape/Cameron Marsh, Twighlight Fields, Oil on Canvas, 20x40cm, 2026.jpg
+- name: Untitled
+  medium: Oil on Board
+  size: 30x40cm
+  year: 2025
+  sold: false
+  img_href: /landscape/Cameron Marsh, Untitled, Oil on Board, 30x40cm, 2025.jpeg

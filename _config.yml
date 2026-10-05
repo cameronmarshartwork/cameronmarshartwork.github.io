@@ -15,7 +15,7 @@ collections:
     output: true
   figure:
     output: true 
-  still life:
+  still_life:
     output: true 
 
 markdown: kramdown

@@ -1,5 +1,5 @@
 ---
-title: still life 
+title: still_life 
 layout: default 
 type: parent
 order: 6

@@ -29,13 +29,11 @@
 
 </head>
 <body>
- 	<!-- Primary Page Layout
- 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 	<div class="section header">
 		<h1 class="title">Cameron Marsh Artwork</h1>
 		<div id="navbar-wrapper">
 			<div id="navbar" class="close">
-				<a onclick="menuExpand()"><img id="brand" class="hide" src="" /></a>
+				<a onclick="menuExpand()"><img id="brand" class="hide" src=""></a>
 				
 				
 				<a class="button" href="/">home</a>
@@ -48,13 +46,14 @@
 				
 				<a class="button" href="/landscape.html">landscape</a>
 				
-				<a class="button" href="/stilllife.html">still life</a>
+				<a class="button" href="/still_life.html">still life</a>
 				
 			</div>
 		</div>
 </div>
-
-<div class="section main">
+ 	<!-- Primary Page Layout
+ 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	<div class="section">
 	
 
 
@@ -67,13 +66,19 @@
         
           <input class="carousel__activator" type="radio" name="carousel0" id="0c" />
         
+          <input class="carousel__activator" type="radio" name="carousel0" id="0d" />
+        
+          <input class="carousel__activator" type="radio" name="carousel0" id="0e" />
+        
+          <input class="carousel__activator" type="radio" name="carousel0" id="0f" />
+        
         
           
           
           
           
           <div class="carousel__controls">
-              <label class="carousel__control carousel__control--backward" for="0c"></label>
+              <label class="carousel__control carousel__control--backward" for="0f"></label>
               <label class="carousel__control carousel__control--forward" for="0b"></label>
           </div>
         
@@ -92,17 +97,50 @@
           
           <div class="carousel__controls">
               <label class="carousel__control carousel__control--backward" for="0b"></label>
+              <label class="carousel__control carousel__control--forward" for="0d"></label>
+          </div>
+        
+          
+          
+          
+          
+          <div class="carousel__controls">
+              <label class="carousel__control carousel__control--backward" for="0c"></label>
+              <label class="carousel__control carousel__control--forward" for="0e"></label>
+          </div>
+        
+          
+          
+          
+          
+          <div class="carousel__controls">
+              <label class="carousel__control carousel__control--backward" for="0d"></label>
+              <label class="carousel__control carousel__control--forward" for="0f"></label>
+          </div>
+        
+          
+          
+          
+          
+          <div class="carousel__controls">
+              <label class="carousel__control carousel__control--backward" for="0e"></label>
               <label class="carousel__control carousel__control--forward" for="0a"></label>
           </div>
         
         <div class="carousel__track">
           <ul>
             
-            <li class="carousel__slide" style="background-image: url('/img/Cameron Marsh, Back Study, Oil on Canvas, 70x100cm, 2025.jpg');"></li>
+            <li class="carousel__slide" style="background-image: url('/figure/Cameron Marsh, Gravediggers, Oil on Canvas, 110x150cm, 2025.jpg');"></li>
             
-            <li class="carousel__slide" style="background-image: url('/img/Cameron Marsh, Etching on copper, 15x20cm, 2025.jpg');"></li>
+            <li class="carousel__slide" style="background-image: url('/figure/Cameron Marsh, Girl from Perugia, Oil on Canvas, 65x55cm, 2024.jpg');"></li>
             
-            <li class="carousel__slide" style="background-image: url('/img/Cameron Marsh, Girl from Perugia, Oil on Canvas, 65x55cm, 2024.jpg');"></li>
+            <li class="carousel__slide" style="background-image: url('/etching/Cameron Marsh, Villa Rusciano, Etching on copper, 15x20cm, 2025.jpg');"></li>
+            
+            <li class="carousel__slide" style="background-image: url('/landscape/Cameron Marsh, Dusk Clouds, Oil on Board, 20x30cm, 2025.jpg');"></li>
+            
+            <li class="carousel__slide" style="background-image: url('/etching/Cameron Marsh, Old Country Shed, Etching on Copper, 18x24cm, 2026.jpg');"></li>
+            
+            <li class="carousel__slide" style="background-image: url('/still_life/Cameron Marsh, Still Life with Bread, Oil on Canvas, 2023.jpg');"></li>
             
           </ul>
         </div>
@@ -113,6 +151,12 @@
               <label class="carousel__indicator" for="0b"></label>
             
               <label class="carousel__indicator" for="0c"></label>
+            
+              <label class="carousel__indicator" for="0d"></label>
+            
+              <label class="carousel__indicator" for="0e"></label>
+            
+              <label class="carousel__indicator" for="0f"></label>
             
         </div>
     </div>
@@ -202,6 +246,75 @@
   opacity: 1;
 }
 
+.carousel__activator:nth-of-type(4):checked ~ .carousel__track {
+  -webkit-transform: translateX(-300%);
+          transform: translateX(-300%);
+}
+.carousel__activator:nth-of-type(4):checked ~ .carousel__slide:nth-of-type(4) {
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.carousel__activator:nth-of-type(4):checked ~ .carousel__controls:nth-of-type(4) {
+  display: block;
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(4):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(4) {
+  opacity: 1;
+}
+
+.carousel__activator:nth-of-type(5):checked ~ .carousel__track {
+  -webkit-transform: translateX(-400%);
+          transform: translateX(-400%);
+}
+.carousel__activator:nth-of-type(5):checked ~ .carousel__slide:nth-of-type(5) {
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.carousel__activator:nth-of-type(5):checked ~ .carousel__controls:nth-of-type(5) {
+  display: block;
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(5):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(5) {
+  opacity: 1;
+}
+
+.carousel__activator:nth-of-type(6):checked ~ .carousel__track {
+  -webkit-transform: translateX(-500%);
+          transform: translateX(-500%);
+}
+.carousel__activator:nth-of-type(6):checked ~ .carousel__slide:nth-of-type(6) {
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.carousel__activator:nth-of-type(6):checked ~ .carousel__controls:nth-of-type(6) {
+  display: block;
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(6):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(6) {
+  opacity: 1;
+}
+
 
 .carousel__control {
   height: 30px;
@@ -286,6 +399,21 @@
           transform: translateX(200%);
 }
 
+.carousel__track .carousel__slide:nth-of-type(4) {
+  -webkit-transform: translateX(300%);
+          transform: translateX(300%);
+}
+
+.carousel__track .carousel__slide:nth-of-type(5) {
+  -webkit-transform: translateX(400%);
+          transform: translateX(400%);
+}
+
+.carousel__track .carousel__slide:nth-of-type(6) {
+  -webkit-transform: translateX(500%);
+          transform: translateX(500%);
+}
+
 
 .carousel--scale .carousel__slide {
   -webkit-transform: scale(0);
@@ -324,6 +452,24 @@
   background-position: center;
 }
 
+.carousel__slide:nth-of-type(4),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(4) {
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel__slide:nth-of-type(5),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(5) {
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel__slide:nth-of-type(6),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(6) {
+  background-size: cover;
+  background-position: center;
+}
+
 </style>
 
 <script>
@@ -354,16 +500,16 @@
         }
   }
   
-  setInterval(function(){
-    var j=0;
-    var elements = document.querySelectorAll('#carousel0 .carousel__control--forward');
-    for(i=(elements.length - 1);i>-1;i--) {
-      if(isVisible(elements[i])) j=i;
-    }
-    elements[j].click();
-  },7000);
-  
 </script>
+
+  <div class="caption">	
+		<p>Cameron Marsh is a painter and etcher of figures, still lifes, and landscapes, and currently works as a Principal Instructor at the Florence Academy of Art</p>
+		<a href="/about.html">Learn more about Cameron</a>
+	</div>
+	<div class="caption">
+		<h6>Contact</h6>
+		<p>If you have any questions or would like to purchase an available artwork, please send an email to <a href="mailto:cameronmarshartwork@gmail.com">cameronmarshartwork@gmail.com</a></p>
+	</div>
 </div>
 
 	<!-- End Document

@@ -5,7 +5,7 @@
 				<a onclick="menuExpand()"><img id="brand" class="hide" src="{{ relative_url }}"></a>
 				{% assign mypages = site.pages | where: "type", "parent" | sort: "order" %}
 				{% for page in mypages %}
-				<a class="button" href="{{ page.url | relative_url }}">{{ page.title }}</a>
+				<a class="button" href="{{ page.url | relative_url }}">{{ page.title | replace: "_", " " }}</a>
 				{% endfor %}
 			</div>
 		</div>

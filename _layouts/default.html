@@ -7,8 +7,7 @@
  	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 <div class="section main">
 	<div class="container">
-		<h3 class="section-heading">{{ page.title }}</h3>
-				{% assign dataKey = page.title  %}
+		<h3 class="section-heading">{{ page.title | replace: "_", " "}}</h3>
 		{{ page.body | markdownify }}
 		<div id="gallery">
 				{% for artwork in site.data[page.title] %}

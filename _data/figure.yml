@@ -1,0 +1,66 @@
+- name: Back Study
+  medium: Oil on Canvas
+  size: 70x100cm
+  year: 2025
+  sold: false
+  img_href: /figure/Cameron Marsh, Back Study, Oil on Canvas, 70x100cm, 2025.jpg
+- name: Anima
+  medium: Oil on Canvas
+  size: 75x90cm
+  year: 2026
+  sold: false
+  img_href: /figure/Cameron Marsh, Anima, Oil on Canvas, 75x90cm, 2026.jpg
+- name: Girl from Perugia
+  medium: Oil on Canvas
+  size: 55x65cm
+  year: 2024
+  sold: false
+  img_href: /figure/Cameron Marsh, Girl from Perugia, Oil on Canvas, 65x55cm, 2024.jpg
+- name: Gravediggers
+  medium: Oil on Canvas
+  size: 110x150cm
+  year: 2025
+  sold: false
+  img_href: /figure/Cameron Marsh, Gravediggers, Oil on Canvas, 110x150cm, 2025.jpg
+- name: Rehearsal 
+  medium: Oil on Canvas
+  size: 80x120cm
+  year: 2024
+  sold: false
+  img_href: /figure/Cameron Marsh, Rehearsal, Oil on Canvas, 120x80cm, 2024.jpg
+- name: Self Portrait age 29
+  medium: Sepia, White Chalk, and Gouache on Hand-toned Paper
+  size: 43x48cm
+  year: 2025
+  sold: false
+  img_href: /figure/Cameron Marsh, Self Portrait age 29, Sepia White Chalk and Goache on Paper, 43x48cm, 2025.jpg
+- name: Self Portrait age 28
+  medium: Oil on Canvas
+  size: 45x60cm
+  year: 2024
+  sold: false
+  img_href: /figure/Cameron Marsh, Self Portrait at 28, Oil on Canvas, 2024.JPG
+- name: Gravediggers Figure Study 1
+  medium: Charcoal and White Chalk on Paper
+  size: 50x70cm
+  year: 2025
+  sold: false
+  img_href: /figure/Cameron Marsh, Gravediggers Figure Study 1, Charcoal and White Chalk on Toned Paper, 50x70cm, 2025.jpg
+- name: Gravediggers Figure Study 2
+  medium: Charcoal and White Chalk on Paper
+  size: 50x70cm
+  year: 2025
+  sold: true
+  img_href: /figure/Cameron Marsh, Gravediggers Figure Study 2, Charcoal and White Chalk on Toned Paper, 50x70cm, 2025, Sold.jpg
+- name: Pink Scarf
+  medium: Oil on Canvas
+  size: 30x40cm
+  year: 2026
+  sold: false
+  img_href: /figure/Cameron Marsh, Pink Scarf, Oil on Canvas, 30x40cm, 2026.jpg
+- name: Self Portrait Sketch
+  medium: Oil on Board
+  size: 35x45cm
+  year: 2025
+  sold: false
+  img_href: /figure/Cameron Marsh, Self Portrait Sketch, Oil on Board, 35x45cm, 2025.jpg
